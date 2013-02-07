@@ -183,9 +183,16 @@
 		<p> Please select a side </p>
 
 		<select>
-			<option value="fraction"> FrACTION </option>
-			<option value="faction"> Faction </option>
+			<optgroup label="God Side">
+				<option value="fraction"> FrACTION </option>
+			</optgroup>
+			<optgroup>	
+				<option value="faction"> Faction </option>
+			</optgroup>
 		</select>
+
+		<textarea rows="4" cols="50" placeholder="Please Describe why you chose the fraction">
+		</textarea>
 
 		<p> Please write your side</p>
 		<form>
@@ -194,7 +201,7 @@
 			<option value="FrACTION">
 			<option value="faction">
 		</datalist>
-		<input type"submit" value="Choose!">
+		<input type="submit" value="Choose!">
 		</form>
 	</body>
 
